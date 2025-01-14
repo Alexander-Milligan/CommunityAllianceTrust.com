@@ -1,9 +1,9 @@
 
 # CommunityAllianceTrust.com: Project Record
 
-![GitHub last commit](https://img.shields.io/github/last-commit/username/CommunityAllianceTrust.com)
-![GitHub repo size](https://img.shields.io/github/repo-size/username/CommunityAllianceTrust.com)
-![GitHub contributors](https://img.shields.io/github/contributors/username/CommunityAllianceTrust.com)
+![GitHub last commit](https://img.shields.io/github/last-commit/Alexander-Milligan/CommunityAllianceTrust.com)
+![GitHub repo size](https://img.shields.io/github/repo-size/Alexander-Milligan/CommunityAllianceTrust.com)
+![GitHub contributors](https://img.shields.io/github/contributors/Alexander-Milligan/CommunityAllianceTrust.com)
 
 This repository is set up to record the development of CommunityAllianceTrust.com.
 
@@ -60,7 +60,7 @@ The tasks completed during this phase included:
 ---
 
 ## Updates and Changes
-**Date:** [Insert Date of Updates]  
+**Date:** (These updates where over the period of 15/01/2024 to now and ongoing.)  
 **Brief:** Below are the key updates made to the project:
 
 ### CRUD System Updates
