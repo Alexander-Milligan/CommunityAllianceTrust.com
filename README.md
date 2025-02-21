@@ -86,6 +86,42 @@ The tasks completed during this phase included:
 2. Refactored `Regform.php` for cleaner code and better usability.
 3. Improved authentication processes in `secureFunctions.php`.
 
+## Recent Updates and Changes
+
+### **Date: 21/02/2025**
+
+### **Website Updates**
+- **Removed Blog Section**: Deleted the blog page, removed the navigation button, and cleaned up function scripts.
+- **Event Enhancements**: Made the "Get to Know Your Neighbourhood" event more prominent.
+- **Text Update**: Changed "What we have been doing?" to "What we do" for clarity.
+
+### **Emergency Numbers Integration**
+- **New Front Page Section**: Added an emergency numbers container featuring key contacts such as:
+  - **Electricity**: 0800 40 40 90
+  - **Power Cut**: 105
+  - **Gas Leaks**: 0800 111 999
+  - **Scottish Water**: 0800 0778 778
+  - **Flood Line**: 0345 988 1188
+  - **NHS24**: 111
+  - **Crime Stoppers**: 0800 555 111
+  - **Police Scotland**: Emergency 999 / Non-emergency 101
+  - **Council Emergency Number**: 0131 200 2000 (24/7)
+  - **Emergency Housing**: 0800 032 5968
+  - **Social Care**: 0800 731 6969 (Freephone) or +44 131 553 8286 (Outside UK)
+  - **Other Support Numbers**: Council Tax, Debt Recovery, Environmental, Registration Services, and more.
+
+### **Structural Improvements**
+- **Noticeboard Removal**: Completely removed all noticeboards from the system.
+- **Contact Forms Optimization**: Removed redundant forms, keeping only the one on the contact page.
+- **Community Gardening Update**: Removed Facebook integration from this section.
+- **Homepage Adjustments**: Redesigned layout for improved structure and user experience.
+
+### **Content Adjustments**
+- **Pantry Page Update**: Removed outdated £15 pricing.
+- **Events Page Update**: Added "Know Your Neighbourhood" event to the event listings.
+
 ---
+This document will continue to be updated as further improvements and new features are implemented.
+
 
 This document will continue to be updated as the project evolves.
