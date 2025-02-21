@@ -114,7 +114,6 @@
                     <a href="../CommunityGardening/index.php" class="btn btn-sm btn-primary m-2">Community Gardening</a>
                     <a href="../GreenhousePantry/index.php" class="btn btn-sm btn-primary m-2" >Greenhouse Pantry</a>
                     <a href="../Site/AboutUs.html" class="btn btn-sm btn-primary m-2" >About Us</a>
-                    <a href="../Site/index.php?nav=CATBlog" class="btn btn-sm btn-primary m-2" >Blog</a>
                     <button class="btn btn-sm btn-primary m-2" name="nav" value="MailingList">Mailing List</button>
                     <button class="btn btn-sm btn-primary m-2" name="nav" value="CATEvents">Events</button>
                     <button class="btn btn-sm btn-primary m-2" name="nav" value="ContactUs">Contact Us</button>
@@ -123,107 +122,14 @@
             </nav>
         </div>
 
-        <!-- Slides -->
-        <div class="container">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="card" style="width: 60%; margin: auto;">
-                            <img src="../CATAssets/images/WhiteHouseKitchenLogo.png" style="width: 55%; margin: auto;" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">The White House Kitchen</h5>
-                                <p class="card-text text-center">The White House Kitchen is a unique Café in Craigmillar, Edinburgh
-                                    that serves up a
-                                    wholesome range of buttered Hot and Cold Rolls, plus fluffy American Pancakes and
-                                    deliciously frothy Coffees, ideal for early morning feasting.
-                                </p>
-                                <p class="card-text text-center">There is also an indulgent array of All Day Brunch options with
-                                    tasty vegetarian
-                                    versions. Simply place your order online and let us handle the rest.
-                                </p>
-                                <a href="https://thewhitehousekitchen.co.uk/breakfast" class="btn btn-primary mb-5">View Our Breakfast Menu</a>
-                                <a href="https://thewhitehousekitchen.co.uk/drinks-1" class="btn btn-primary mb-5">View Our Drinks Menu</a>
-                                <a href="https://thewhitehousekitchen.co.uk/order-online" class="btn btn-primary mb-5">Order Online</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <div class="card" style="width: 60%; margin: auto;">
-                            <img src="../CATAssets/images/WhiteHouseKitchenOffers.png" style="width: 55%; margin: auto;" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">White House Kitchen Offers</h5>
-                                <p class="card-text text-center">
-                                    Discover the White House Kitchen in Craigmillar, Edinburgh, where special offers on delicious food await you. Enjoy a variety of expertly crafted dishes at unbeatable prices, ensuring a delightful dining experience for everyone. Don't miss out on these fantastic culinary deals!
-                                </p>
-                                <a href="https://thewhitehousekitchen.co.uk/offers" class="btn btn-primary mb-5">Kitchen Offers</a>
-                            </div>                    
-                        </div>
-                    </div>
-
-
-
-
-                    <div class="carousel-item">
-                        <div class="card" style="width: 60%; margin: auto;">
-                            <img src="../CATAssets/images/WhiteHouseLiveMusic.png" style="width: 55%; margin: auto;"class="card-img-top" alt="...">
-                       
-                            <div class="card-body">
-                            <h5 class="card-title text-center">White House Live Music - John Connor</h5>
-                                <p class="card-text">Experience an unforgettable evening at The White House as you listen to live music with the talented guitar vocalist John Connor. Immerse yourself in the soulful sounds of blues, the energetic rhythms of rock, the heartfelt melodies of country, and much more. Join us for a night of exceptional music and captivating performances that will leave you wanting more.</p>
-                                <a href="https://thewhitehousekitchen.co.uk/john-connor" class="btn btn-primary mb-5">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
-                    <span class="btn btn-primary">Previous</span>
-
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
-                    <span class="btn btn-primary">Next</span>
-                </button>
-            </div>
-        </div>
-
-        <!-- //Main Image & Notice Board  -->
+        <!-- Main Image & Notice Board  -->
         <div class="container mb-5">
-            <div class="row">
-                <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                        <h5 class="card-title text-center">Welcome to the White House</h5>
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <img src="../CATAssets/images/OldWhiteHouse.jpg" style="width: 80%;" class="card-img-top"
-                                    alt="The White House old image">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="col-sm-12 just">
-                            <img src="../CATAssets/images/WhiteHouseNoticeBoard.png"
-                                style="width: 50%; margin-left: 25%;">
-
-                            <div class=" card">
-                                <div class="card mx-5 pt-3">
-                                    <div class="card-body">
-                                        <?php WhiteHouseNoticeBoardGrab(); ?>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-12 mb-3 mb-sm-0">
+                    <h5 class="card-title text-center">Welcome to the White House</h5>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="../CATAssets/images/OldWhiteHouse.jpg" style="width: 50%;" class="card-img-top" alt="The White House old image">
                         </div>
                     </div>
                 </div>
@@ -266,39 +172,16 @@
         </div>
 
         <div class="container mb-5">
-            <div class="row">
-                <div class="col-sm-6 text-center">
+            <div class="row justify-content-center">
+                <div class="col-6 text-center">
                     <h4 class="card-title">Volunteers</h4>
                     <p>Since its inception, the work of the Community Alliance Trust has depended on the time and effort local volunteers.  Their enthusiastic endeavours have been greatly appreciated, whether digging and planting in the community gardens of simple offering someone a warm welcome in the Green House Pantry, CAT wouldn’t be the same without their commitment.  If you want to give a helping hand we want to hear from you, contact us on </p>
                     <p><b>0131 652 6320</b></p>
                     <p>Just remember your safety is paramount to us, all volunteers will be given guidance by CAT's garden or pantry teams.  If you are in the gardens, you are more that welcome to take some of your hard labours home with our thanks.</p>
-                    </div>
-
-                    <div class="col-sm-6 text-center">
-                    <h4 class="card-title">Get in Touch</h4>
-                    <p>If you would like to inquire about any CAT projects running from or in the Whitehouse or are interested in using our services then please feel free to contact us to discuss your requirements further.</p>
-                    <form class="requires-validation" action="../Site/index.php" method="post">
-                        <h5 class="card-title">White House Contact Form</h5>
-                        <div class=" col-md-12 mb-2">
-                            <input class="form-control" type="text" name="ContactPublicName" placeholder="Full Name" required>
-                        </div>
-                        <div class="col-md-12 mb-2">
-                            <input class="form-control" type="email" name="ContactPublicEmail" placeholder="E-mail Address" required>
-                        </div>
-                        <div class="col-md-12 mb-2">
-                            <textarea style="width: 90%;" class="rounded-4 p-2" name="PublicContactComment"
-                                placeholder="Please give a short discription of your query"
-                                style="height:10rem"></textarea>
-                        </div>
-                        <div class="form-button mt-3">
-                            
-                            <input type="hidden" name="nav" value="WhiteHouseEmail" />
-                            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </form>
+                    
                 </div>
-                <div class="col-sm-12 text-center">
-                    <img src="../CATAssets/images/WhiteHouseKitchenLogo.png" style="width: 50%;" alt="...">
+                <div class="col-6 text-center">
+                    <img src="../CATAssets/images/WhiteHouseKitchenLogo.png" style="width: 40%;" alt="...">
                     <h4 class="card-title">Contact The White House Kitchen </h4>
                     <p>.</p>
                     <a href="https://thewhitehousekitchen.co.uk/contact-us" class="btn btn-primary">Get in
@@ -307,8 +190,69 @@
             </div>
         </div>
 
-    </div>
+        <div class="container my-5">
+            <div class="section">
+                <h2>All Weather Facility</h2>
+                <p>CAT has been working with both the Scottish Football Association and Sport Scotland to develop this site into a first-class multi-sport venue. Plans are underway to replace the playing surface, repair fencing, and create a community space for meetings and activities beyond sports.</p>
+            </div>
 
+            <div class="section">
+                <h2>Anchor Organisation Support</h2>
+                <p>CAT provides support to other community groups by sharing experience, contacts, and resources. The East Synergy Group is a new collaborative body aimed at strengthening the third sector and community efforts.</p>
+            </div>
+
+            <div class="section">
+                <h2>CHAI at the Whitehouse</h2>
+                <p>CHAI delivers independent advice on benefits, housing rights, debt issues, and tenancy support. Sessions run on Tuesdays and Thursdays from 10am-12pm.</p>
+                <p><strong>Contact:</strong> 0131 652-6320 | 0131 442-1009 | Helpline: 0300 323 9961</p>
+            </div>
+
+            <div class="section">
+                <h2>Into University</h2>
+                <p>Into University provides academic support to young people in underprivileged areas through study sessions, mentoring, and programs that inspire ambition.</p>
+            </div>
+
+            <div class="section">
+                <h2>ADVO Card (Services via Edinburgh Food Project)</h2>
+                <p>Free outreach services for advocacy support.</p>
+                <p><strong>Phone:</strong> 0808 196-3525 | <strong>Email:</strong> advocacysupport@advocard.org.uk</p>
+            </div>
+
+            <div class="section">
+                <h2>Social Security Scotland</h2>
+                <p>Provides benefits for low-income individuals, carers, and disabled persons with dignity, fairness, and respect.</p>
+                <p><strong>Phone:</strong> 0800 182 2222</p>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <div class="container">
+        <h1>Emergency Contacts</h1>
+            <div class="footer-content">
+                <div><i class="fas fa-bolt"></i> Electricity: 0800 40 40 90</div>
+                <div><i class="fas fa-plug"></i> Power Cut: 105</div>
+                <div><i class="fas fa-gas-pump"></i> Gas Leaks: 0800 111 999</div>
+                <div><i class="fas fa-water"></i> Scottish Water: 0800 0778 778</div>
+                <div><i class="fas fa-tint"></i> Flood Line: 0345 988 1188</div>
+                <div><i class="fas fa-hospital"></i> NHS24: 111</div>
+                <div><i class="fas fa-user-secret"></i> Crime Stoppers: 0800 555 111</div>
+                <div><i class="fas fa-shield-alt"></i> Police: 999 / 101</div>
+                <div><i class="fas fa-phone-alt"></i> Council: 0131 200 2000</div>
+                <div><i class="fas fa-home"></i> Housing: 0800 032 5968</div>
+                <div><i class="fas fa-users"></i> Social Care: 0800 731 6969</div>
+                <div><i class="fas fa-comments"></i> Customer Care: 0131 200 2300</div>
+                <div><i class="fas fa-coins"></i> Council Tax: 0131 608 1111</div>
+            </div>
+            <div class="footer-bottom mt-3">
+                <div class="col-md-4">© 2024 Community Alliance Trust</div>
+                <div class="col-md-4">
+                    <form action="../Site/index.php" method="post">
+                        <button class="btn btn-sm btn-primary" name="nav" value="ContactUs">Contact Us</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

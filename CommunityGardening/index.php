@@ -78,46 +78,10 @@
                 <a href="index.php" class="btn btn-sm btn-primary m-2">Community Gardening</a>
                 <a href="../GreenhousePantry/index.php" class="btn btn-sm btn-primary m-2">Greenhouse Pantry</a>
                 <a href="../Site/AboutUs.html" class="btn btn-sm btn-primary m-2">About Us</a>
-                <a href="../Site/index.php?nav=CATBlog" class="btn btn-sm btn-primary m-2">Blog</a>
                 <button class="btn btn-sm btn-primary m-2" name="nav" value="MailingList">Mailing List</button>
                 <button class="btn btn-sm btn-primary m-2" name="nav" value="CATEvents">Events</button>
                 <button class="btn btn-sm btn-primary m-2" name="nav" value="ContactUs">Contact Us</button>
                 <a href="../NewsletterApp/index.php" class="btn btn-sm btn-primary m-2">Newsletter</a>
-            </form>
-        </nav>
-
-        <div class="container mb-4">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card border-0">
-                        
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="thumbnail">
-                        <img src="../CATAssets/images/pdf-1.png" class="img-responsive" style="height: 250px; width: 100%;" alt="Craigmillar's Community Cookbook">
-                        <div class="card-body">
-                            <h5 class="card-title">Craigmillar's Community Cookbook</h5>
-                            <p class="card-text">
-                                I am delighted to share with you the Craigmillar's Community Cookbook, a collection of recipes from our vibrant community.
-                            </p>
-                            <a href="https://communityalliancetrust.com/GreenhousePantry/assets/pdfs/CraigmillarCommunityCookbook.pdf" class="btn btn-primary" download>Download Cookbook</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
-            <form class="container-fluid justify-content-center">
-                <a href="../Site/ComingSoon.html" class="btn btn-sm btn-success p-1 m-2">Community Gardening Events</a>
-                <a href="../Site/ComingSoon.html" class="btn btn-sm btn-success p-1 m-2">Recipes</a>
-                <a href="assets/Craigmillar Growers Leaflet 2024.pdf" class="btn btn-sm btn-success p-1 m-2">Craigmillar Growers Leaflet 2024</a>
             </form>
         </nav>
 
@@ -134,22 +98,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- NoticeBoard -->
                 <div class="col">
-                    <div class="card border-0">
-                        <img src="assets/images/Noticeboardlogo.png" style="width: 70%; margin: auto;" class="card-img-top" alt="...">
-                        <div class="card mx-5 pt-3">
-                            <div class="card-body">
-                                <?php CommunityGardening_NoticeBoardGrab(); ?>
-                                <a href="../Site/ComingSoon.html" class="btn btn-sm btn-primary m-1">Facebook link to event one</a>
-                                <a href="../Site/ComingSoon.html" class="btn btn-sm btn-primary m-1">Instagram Link</a>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="assets/images/LogoOne.png" style="width: 100%; margin: auto;" class="card-img-top" alt="...">
                 </div>
-                <div class="custom-spliter btn btn-success mt-5 mb-5 p-1">
-                    
-                </div>
+                <div class="custom-spliter btn btn-success mt-5 mb-5 p-1"></div>
             </div>
 
             <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -180,9 +132,9 @@
         <div class="custom-spliter btn btn-success mt-5 mb-5 p-1"></div>
 
         <div class="container mb-5">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="row justify-content-center">
                 <!-- Neighbourhood Gardens -->
-                <div class="col">
+                <div class="col-10">
                     <div class="card border-0">
                         <img src="assets/images/NeighbourhoodGardenstitle.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -191,53 +143,9 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- Our Facebook -->
-                <div class="col text-center mb-4">
-                    <div class="bg-light p-4 rounded shadow"> 
-                        <h5 class="mb-3">Community Gardening Facebook</h5>
-                        <img src="assets/images/FacebookIcon.png" alt="Facebook Icon" class="mb-3" style="width: 100%; margin: auto;">
-                        <a href="https://www.facebook.com/CraigmillarGrowers/" target="_blank" class="btn btn-primary btn-lg">
-                            <i class="fab fa-facebook-f fa-3x"></i>  
-                        </a>
-                    </div>
-                </div>
             </div>
 
             <div class="custom-spliter btn btn-success mt-5 mb-5 p-1"></div>
-
-            <div class="row">
-                <div class="col-12">
-                    <form class="rounded-3 p-4 text-light" style="background-color: #488fb8;" action="../Site/index.php" method="post">
-                        <h3 class="card-title text-center mb-2 mt-5">Get in Touch</h3>
-                        <p class="card-text text-center"><?php echo htmlspecialchars($_SESSION["CG_Par9"], ENT_QUOTES, 'UTF-8'); ?></p>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="md-form mb-0 p-2">
-                                    <label for="name" class="">Your name</label>
-                                    <input type="text" name="ContactPublicName" class="form-control" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="md-form mb-0 p-2">
-                                    <label for="email" class="">Your email</label>
-                                    <input type="text" name="ContactPublicEmail" class="form-control" required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form"><label for="message">Your message</label>
-                                    <textarea type="text" name="PublicContactComment" rows="2" class="form-control md-textarea p-2" required></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="hidden" name="nav" value="CommunityGardeningEmail" />
-                        <button id="submit" type="submit" class="btn btn-primary m-3">Send</button>
-                    </form>
-                </div>
-            </div>
         </div>
     </div>
 

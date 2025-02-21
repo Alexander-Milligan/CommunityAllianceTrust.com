@@ -5,15 +5,15 @@ $Apostrophe = "'";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8EXH35RLZP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8EXH35RLZP"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-8EXH35RLZP');
-</script>
+    gtag('config', 'G-8EXH35RLZP');
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Alliance Trust</title>
     <meta name="description"
@@ -52,7 +52,7 @@ $Apostrophe = "'";
                 $('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
                 $('#imageclose').modal('close');
             });
-        </script>       
+    </script>       
         <style>
             .ck-editor__editable[role="textbox"] {
                 /* Editing area */
@@ -95,27 +95,55 @@ $Apostrophe = "'";
                 background-color: #0056b3;
                 transition: 0.2s ease-in-out;
             }
+        
+            footer {
+            background: #fff;
+            color: black;
+            padding: 15px 0;
+            font-size: 14px;
+            }
+            .footer-content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+                text-align: center;
+            }
+            .footer-content div {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .footer-content i {
+                color: #f8d210;
+            }
+            .footer-bottom {
+                border-top: 1px solid #555;
+                padding-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                text-align: center;
+            }
+            .footer-bottom .btn {
+                font-size: 12px;
+                padding: 5px 10px;
+            }
         </style>  
 </head>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="YOUR_NONCE"></script>
+
 <body>
     
-<div id="fb-root"></div> 
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
 <div class="container">
     <?php include'https/Components/Header.php'; ?>
     <?php include'https/Conductor.php'; ?>
     <?php include'https/Components/Footer.php'; ?>
 </div>
+
+<!-- Bootstrap & FontAwesome (for Icons) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 </body>
 

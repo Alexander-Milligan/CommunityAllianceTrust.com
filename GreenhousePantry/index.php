@@ -112,7 +112,6 @@ include '../Site/https/Functions.php'; GreenHousePage();?>
                     <a href="../CommunityGardening/index.php" class="btn btn-sm btn-primary m-2">Community Gardening</a>
                     <a href="index.php" class="btn btn-sm btn-primary m-2">Greenhouse Pantry</a>
                     <a href="../Site/AboutUs.html" class="btn btn-sm btn-primary m-2">About Us</a>
-                    <a href="../Site/index.php?nav=CATBlog" class="btn btn-sm btn-primary m-2">Blog</a>
                     <button class="btn btn-sm btn-primary m-2" name="nav" value="MailingList">Mailing List</button>
                     <button class="btn btn-sm btn-primary m-2" name="nav" value="CATEvents">Events</button>
                     <button class="btn btn-sm btn-primary m-2" name="nav" value="ContactUs">Contact Us</button>
@@ -259,70 +258,33 @@ include '../Site/https/Functions.php'; GreenHousePage();?>
             <hr class="featurette-divider">
 
             <div class="container">
-            <div class="row featurette">
-                <div class="col-md-6">
-                    <h2 class="featurette-heading fw-normal lh-1 mt-5 mb-5"><?php echo $_SESSION["GreenHouse_Title8"]; ?><span class="text-body-secondary"></span></h2>
-                    <p class="lead"><?php echo $_SESSION["GreenHouse_Pa11"]; ?></p>
-                    <p class="mt-2 lead"><?php echo $_SESSION["GreenHouse_Par12"]; ?></p>
-                    
-                    <a href="https://www.instagram.com/ylpgreenhouse/?hl=en" class="btn btn-primary">Our Instagram</a>
-                    <img src="assets/images/Greenhouseinstagram.png" class="img-fluid mt-3" alt="Greenhouse Instagram">
-                </div>
-                <div class="col-md-6 text-center rounded-5">
-                    <h2 class="featurette-heading fw-normal lh-1 mt-5 mb-5"><?php echo $_SESSION["GreenHouse_Title9"]; ?><span class="text-body-secondary"></span></h2>
-                    <img src="assets/images/FacebookIcon.png" class="img-fluid" alt="Facebook Area" style="width: 80%;">
-                    
-                    <div class="mt-4">
-                        <button id="likeButton" class="btn btn-primary me-2" onclick="likePage()">
-                            <i class="fab fa-facebook-f"></i> Like <span id="likeCount">0</span> <!-- Initial count -->
-                        </button>
-                        <button id="shareButton" class="btn btn-primary me-2" onclick="sharePage()">
-                            <i class="fas fa-share"></i> Share
-                        </button>
-                        <a href="https://www.facebook.com/ylpgreenhouse" class="btn btn-primary">
-                            <i class="fas fa-user-plus"></i> Follow <span id="followCount">8</span> <!-- Initial count -->
-                        </a>
+                <div class="row featurette">
+                    <div class="col-md-6">
+                        <h2 class="featurette-heading fw-normal lh-1 mt-5 mb-5"><?php echo $_SESSION["GreenHouse_Title8"]; ?><span class="text-body-secondary"></span></h2>
+                        <p class="lead"><?php echo $_SESSION["GreenHouse_Pa11"]; ?></p>
+                        <p class="mt-2 lead"><?php echo $_SESSION["GreenHouse_Par12"]; ?></p>
+                        
+                        <a href="https://www.instagram.com/ylpgreenhouse/?hl=en" class="btn btn-primary">Our Instagram</a>
+                        <img src="assets/images/Greenhouseinstagram.png" class="img-fluid mt-3" alt="Greenhouse Instagram">
                     </div>
-                </div>
-            </div>
-            <div class="row featurette">
-                <div class="col-md-6">
-                    <h2 class="featurette-heading fw-normal lh-1 mt-5 mb-5"><?php echo $_SESSION["GreenHouse_Title10"]; ?><span
-                            class="text-body-secondary"></span></h2>
-                    <p class="lead"><?php echo $_SESSION["GreenHouse_Par13"]; ?></p>
-                    <div class="card">
-                        <img src="assets/images/PantryNoticeBoard.png" style="width: 70%; margin: auto;"
-                            class="card-img-top" alt="...">
-                        <div class="card mx-5 pt-3">
-                            <div class="card-body">
-                                <?php PantryNoticeBoardGrab(); ?>
-                                <a href="https://www.facebook.com/YLPGreenhouse/?locale=en_GB"
-                                    class="btn btn-sm btn-primary m-1">Facebook link to event
-                                    one</a>
-                                <a href="https://www.instagram.com/ylpgreenhouse/?hl=en"
-                                    class="btn btn-sm btn-primary m-1">Instagram Link</a>
-                            </div>
+                    <div class="col-md-6 text-center rounded-5">
+                        <h2 class="featurette-heading fw-normal lh-1 mt-5 mb-5"><?php echo $_SESSION["GreenHouse_Title9"]; ?><span class="text-body-secondary"></span></h2>
+                        <img src="assets/images/FacebookIcon.png" class="img-fluid" alt="Facebook Area" style="width: 80%;">
+                        
+                        <div class="mt-4">
+                            <button id="likeButton" class="btn btn-primary me-2" onclick="likePage()">
+                                <i class="fab fa-facebook-f"></i> Like <span id="likeCount">0</span> <!-- Initial count -->
+                            </button>
+                            <button id="shareButton" class="btn btn-primary me-2" onclick="sharePage()">
+                                <i class="fas fa-share"></i> Share
+                            </button>
+                            <a href="https://www.facebook.com/ylpgreenhouse" class="btn btn-primary">
+                                <i class="fas fa-user-plus"></i> Follow <span id="followCount">8</span> <!-- Initial count -->
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 rounded-5">
-                    <h2 class="featurette-heading fw-normal lh-1 mt-5 mb-5"><?php echo $_SESSION["GreenHouse_Title11"]; ?><span
-                            class="text-body-secondary"></span></h2>
-                    <p class="mt-2 lead"><?php echo $_SESSION["GreenHouse_Par14"]; ?>
-                    <?php echo $_SESSION["GreenHouse_Par15"]; ?></p>
-
-                </div>
             </div>
-
-            <div class="row featurette">
-                <div class="col-md-12">
-                    <h2 class="featurette-heading fw-normal lh-1 mt-5 mb-5"><?php echo $_SESSION["GreenHouse_Title13"]; ?><span
-                            class="text-body-secondary"></span></h2>
-                    <p class="lead"><?php echo $_SESSION["GreenHouse_Par16"]; ?></p>
-                </div>
-            </div>
-        </div>
-
     </div>
 
     <!-- Community Alliance Trust Footer -->
