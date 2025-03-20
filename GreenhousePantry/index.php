@@ -115,7 +115,7 @@ include '../Site/https/Functions.php'; GreenHousePage();?>
                     <button class="btn btn-sm btn-primary m-2" name="nav" value="MailingList">Mailing List</button>
                     <button class="btn btn-sm btn-primary m-2" name="nav" value="CATEvents">Events</button>
                     <button class="btn btn-sm btn-primary m-2" name="nav" value="ContactUs">Contact Us</button>
-                    <a href="../NewsletterApp/index.php" class="btn btn-sm btn-primary m-2">Newsletter</a>
+                    <a href="ComingSoon.html" class="btn btn-sm btn-primary m-2">Newsletter</a>
                 </form>
             </nav>
         </div>
