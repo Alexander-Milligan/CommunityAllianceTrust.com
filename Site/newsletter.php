@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+$current_pdf = 'Newsletter_March_25.pdf'; // fallback/default
+
+if (!empty($_SESSION['current_pdf']) && file_exists('assets/Newsletter/' . $_SESSION['current_pdf'])) {
+    $current_pdf = $_SESSION['current_pdf'];
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -149,7 +159,7 @@
 
     <!-- PDF Viewer -->
     <div class="pdf-container">
-        <iframe src="assets/Newsletter/Newsletter_March_25.pdf"></iframe>
+        <iframe src="assets/Newsletter/<?= htmlspecialchars($current_pdf) ?>"></iframe>
     </div>
 
     <!-- Footer -->
